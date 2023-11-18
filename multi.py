@@ -30,6 +30,3 @@ if st.button("Submit"):
     salary = model.predict(user_data)
     st.subheader('Profit Prediction')
     st.subheader('$'+str(np.round(salary[0], 2)))
-
-
-#state = st.number_input("State:", min_value=0, max_value=2, value=0, step=2)
